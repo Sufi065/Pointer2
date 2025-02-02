@@ -23,7 +23,6 @@ int main()
     for(int x:a){
         cout<<x<<"  ";
     }
-    
     //reverse_iterator
     array<int,6>::reverse_iterator rit;
     for(rit=a.rbegin();rit!=a.rend();rit++){
